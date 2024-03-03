@@ -1,0 +1,28 @@
+* {
+    /* Eliminar predeterminados */
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    /* Estilos de título h1 */
+    text-align: center;
+    padding: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pdfview {
+    width: 850px;
+    height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: center;
+    /* Centrar horizontalmente */
+    align-items: center;
+    /* Centrar verticalmente */
+    margin: 0 auto;
+    /* Agrega margen automático a izquierda y derecha para centrar horizontalmente */
+    margin-left: 250px;
+    /* Ajusta el margen izquierdo para mover el elemento a la derecha */
+}
